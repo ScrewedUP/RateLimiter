@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "wrangler dev index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "wrangler": "^3.50.0"
+  },
+  "dependencies": {
+    "@upstash/ratelimit": "^1.0.3",
+    "@upstash/redis": "^1.29.0",
+    "hono": "^4.2.3"
   }
 }

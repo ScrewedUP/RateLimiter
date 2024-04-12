@@ -1,0 +1,6 @@
+compatability_date = "2024-04-08"
+name = "placeholder-api"
+
+[vars]
+REDIS_URL = "https://apn1-diverse-mudfish-34950.upstash.io"
+REDIS_TOKEN = "AYiGASQgNzVhNDlhMTctYTYxMS00ZWZhLTk1ZWMtN2Q2MjhjZGJkODQxZmQ5NTMwMGE2NDI1NDI5YTllYzU1YTU5MmY3ZWNjMWU="
